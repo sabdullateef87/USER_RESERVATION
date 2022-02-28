@@ -1,0 +1,10 @@
+create table user_table(
+	id INT NOT NULL AUTO_INCREMENT,
+	userName VARCHAR(100) NOT NULL,
+	firstName VARCHAR(100) NOT NULL,
+	lastName VARCHAR(100) NOT NULL,
+	email VARCHAR(100) NOT NULL ,
+	address VARCHAR(250) NOT NULL,
+	phoneNumber VARCHAR(100) NOT NULL,
+	PRIMARY KEY (id)
+);
